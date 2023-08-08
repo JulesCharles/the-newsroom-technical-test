@@ -1,0 +1,40 @@
+.pokemon-container {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  user-select: none;
+}
+
+.button-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  min-width: 50%;
+}
+
+.button {
+  padding: 2vh 5vh;
+  margin: 2vh;
+  box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+}
+
+.button:hover {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+.pokemon-list {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.pokemon-card {
+  min-width: 17%;
+  margin-top: 1.5vh;
+  padding: 2vh;
+  border-radius: 5%;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
